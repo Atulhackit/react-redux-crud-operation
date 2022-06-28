@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "email": "ashish@reqres.in",
+      "name": "Ashish",
+      "contact": "77777",
+      "address": "india",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg",
+      "isLiked": true
+    },
+    {
+      "id": 5,
+      "email": "chaitanya@reqres.in",
+      "name": "Chaitanya",
+      "address": "Morris",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg",
+      "contact": "663565",
+      "isLiked": false
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "name": "Tracey",
+      "address": "Ramos",
+      "avatar": "https://reqres.in/img/faces/7-image.jpg",
+      "contact": "56446",
+      "isLiked": false
+    },
+    {
+      "id": 7,
+      "email": "emma.wong@reqres.in",
+      "name": "Emma",
+      "contact": "55555",
+      "address": "China",
+      "avatar": "https://reqres.in/img/faces/8-image.jpg",
+      "isLiked": false
+    },
+    {
+      "name": "Karthick",
+      "email": "boss@gmail.com",
+      "address": "india",
+      "avatar": "https://reqres.in/img/faces/9-image.jpg",
+      "contact": "9083403",
+      "id": 8,
+      "isLiked": false
+    },
+    {
+      "name": "john",
+      "email": "john@gmail.com",
+      "address": "Noida",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg",
+      "contact": "64646",
+      "id": 9
+    }
+  ]
+}

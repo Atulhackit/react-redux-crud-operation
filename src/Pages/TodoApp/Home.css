@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: auto;
+    background-color: yellow;
+    /* gap: 1rem; */
+}
+.Box-Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    height: auto;
+    width: 40%;
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+}
+.Heading{
+    margin: .5em;    
+}
+.List-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.List-body ul{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.List-body ul li{
+    border: 2px solid #ffff;
+    border-radius: .5em;
+    padding: .4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 1em;
+    list-style: none;
+    margin: .2em;
+}
+.right button{
+    margin: .2em;
+    border-radius: .5em;
+    padding: .5em;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.right button:hover{
+    padding: .51em;
+    
+}
+.right .delete-button{
+    background-color: red;
+}
+.input-field{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+    /* gap: 1em; */
+    
+
+}
+.input-field input{
+    border: 2px solid #fff;
+    border-radius: .5em;
+    padding: .5em;
+    font-weight: bold;
+    color: grey;
+    width: 65%;
+}
+.input-field button{
+    border: 2px solid green;
+    border-radius: .5em;
+    padding: .5em;
+    font-weight: bold;
+    color: #ffff;
+    background-color: green;
+    width: 25%;
+}
+.input-field button:hover{
+    width: 26%;
+}
+input[id=cb] {
+    /* display: none; */
+  }
+input[id=cb]:checked~p.complete-button {
+    text-decoration: line-through;
+    color: red;
+  }
